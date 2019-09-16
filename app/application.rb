@@ -4,7 +4,7 @@ class Application
     resp = Rack::Response.new
     time = '12:00 p.m.' 
     if  time == '12:00 p.m.'
-    resp.write ""
+    resp.write 
     resp.finish
   end
   
