@@ -9,6 +9,7 @@ class Application
     elsif Time.now > 12
     resp.write "Good Afternoon!"
   end 
+  resp.finish
   end
   
 end 
