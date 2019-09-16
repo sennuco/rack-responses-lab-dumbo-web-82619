@@ -2,8 +2,9 @@ class Application
   
   def call(env)
     resp = Rack::Response.new
-    
-    resp.write Time.now
+    time = 12:00 
+    if  time == 12:00
+    resp.write ""
     resp.finish
   end
   
