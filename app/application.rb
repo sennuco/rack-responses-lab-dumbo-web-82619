@@ -5,6 +5,7 @@ class Application
     time = Time.now 
     
     if Time.now < 12
+      resp.write ""
   end
   
 end 
